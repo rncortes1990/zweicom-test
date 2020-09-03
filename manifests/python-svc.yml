@@ -10,4 +10,4 @@ spec:
     nodePort: 30846
   selector:
     app: python
-  type: NodePort
+  type: ClusterIP
