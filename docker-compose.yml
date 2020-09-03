@@ -1,0 +1,9 @@
+version: '3'
+services:
+    python-svc:
+        # image: rncortes1990/python-svc:1.0.0
+        image: prueba-tec:latest
+        container_name: python-svc
+        ports:
+            - 5000:5000
+
